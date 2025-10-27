@@ -1,0 +1,43 @@
+mini-soc-lab/
+│
+├── docs/
+│   ├── architecture_diagram.png
+│   ├── design_notes.md
+│   ├── lab_overview.pdf
+│   └── results_summary.md
+│
+├── src/
+│   ├── cpu_core/
+│   │   ├── alu.v
+│   │   ├── control_unit.v
+│   │   ├── register_file.v
+│   │   └── cpu_top.v
+│   │
+│   ├── memory/
+│   │   ├── instruction_memory.v
+│   │   ├── data_memory.v
+│   │   └── memory_controller.v
+│   │
+│   └── peripherals/
+│       ├── gpio.v
+│       ├── timer.v
+│       └── uart.v
+│
+├── tb/
+│   ├── cpu_tb.v
+│   ├── memory_tb.v
+│   └── soc_tb.v
+│
+├── scripts/
+│   ├── compile.sh
+│   ├── run_tests.sh
+│   └── wave_viewer.do
+│
+├── reports/
+│   ├── synthesis_report.txt
+│   ├── timing_analysis.txt
+│   └── resource_utilization.csv
+│
+├── LICENSE
+├── .gitignore
+└── README.md
