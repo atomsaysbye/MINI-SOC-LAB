@@ -22,12 +22,6 @@ The Mini SoC comprises:
 - **Peripherals** — UART, GPIO, and Timer modules  
 - **Bus Interface** — Simplified bus for internal communication  
 
-<p align="center">
-  <img src="docs/architecture_diagram.png" alt="Architecture Diagram" width="600">
-</p>
-
----
-
 ## 📂 Directory Structure
 
 | Directory | Description |
